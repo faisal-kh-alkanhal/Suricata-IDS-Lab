@@ -1,0 +1,12 @@
+05/24/2026-15:12:00.462001  [**] [1:1000002:1] SSH Brute Force Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.32.131:48766 -> 192.168.32.130:22
+05/24/2026-15:14:30.220155  [**] [1:1000001:1] Nmap SYN Sweep [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.32.131:52452 -> 192.168.32.130:22
+05/24/2026-15:14:30.226351  [**] [1:1000002:1] SSH Brute Force Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.32.131:52452 -> 192.168.32.130:22
+05/24/2026-15:17:00.310172  [**] [1:1000003:1] DNS Query For Suspicious TLD [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.32.131:56961 -> 192.168.32.2:53
+05/24/2026-15:19:25.811903  [**] [1:1000001:1] Nmap SYN Sweep [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.32.131:38304 -> 192.168.32.130:22
+05/24/2026-15:19:25.833001  [**] [1:1000002:1] SSH Brute Force Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.32.131:38320 -> 192.168.32.130:22
+05/24/2026-15:20:00.243095  [**] [1:1000001:1] Nmap SYN Sweep [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.32.131:57208 -> 192.168.32.130:22
+05/24/2026-15:20:00.248410  [**] [1:1000002:1] SSH Brute Force Attack [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.32.131:57208 -> 192.168.32.130:22
+05/24/2026-15:20:28.636884  [**] [1:1000003:1] DNS Query For Suspicious TLD [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.32.131:55821 -> 192.168.32.2:53
+05/24/2026-15:21:03.195843  [**] [1:1000003:1] DNS Query For Suspicious TLD [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.32.131:57196 -> 192.168.32.2:53
+05/24/2026-15:24:24.563944  [**] [1:1000004:1] HTTP Admin Panel Access Attempt [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.32.131:53482 -> 192.168.32.130:80
+05/24/2026-15:53:04.609359  [**] [1:1000001:1] Nmap SYN Sweep [**] [Classification: (null)] [Priority: 3] {TCP} 192.168.32.131:62961 -> 192.168.32.130:106
