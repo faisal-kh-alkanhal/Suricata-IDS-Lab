@@ -1,0 +1,4 @@
+alert tcp $EXTERNAL_NET any -> $HOME_NET any ( msg:"Nmap SYN Sweep";flags:S;threshold:type both, track by_src, count 20, seconds 3; sid:1000001; rev:1;)
+alert tcp $EXTERNAL_NET any -> $HOME_NET 22 ( msg:"SSH Brute Force Attack";content:"SSH";flow:to_server, established;threshold:type both, track by_src,count 5, seconds 60; sid:1000002; rev:1;)
+alert dns any any -> any any (msg: "DNS Query For Suspicious TLD"; dns.query; pcre:"/\.(xyz|top|biz)/i"; sid:1000003; rev:1;)
+alert http $EXTERNAL_NET any -> $HOME_NET any (msg: "HTTP Admin Panel Access Attempt"; http.uri; content:"/admin"; nocase;sid:1000004; rev:1;)
