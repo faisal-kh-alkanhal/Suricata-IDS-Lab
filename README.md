@@ -19,7 +19,7 @@ Built as a hands-on blue team project to demonstrate network threat detection an
 └─────────────────────────────────────────────────┘
 ```
 
-**Stack:** Suricata 7.x · Ubuntu Server 22.04 · jq · custom detection rules
+**Stack:** Suricata 8.0.5 · Ubuntu Server 22.04 · jq · custom detection rules
 
 ---
 
